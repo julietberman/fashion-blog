@@ -1,0 +1,99 @@
+body {
+  padding: 50px 40px;
+  font-family: Avenir;
+  color: #777777;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+nav > a {
+text-decoration: none;
+color: #DDDDDD;
+font-size: 18px;
+border-bottom: 2px solid #DDDDDD;
+}
+
+h1 > a {
+  color: #DC2F2C;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 44px;
+  text-decoration: none;
+}
+
+h2 {
+  color: #303030;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 24px;
+}
+
+h2 > a {
+  color: #303030;
+  font-family: "Gill Sans";
+  font-weight: 100;
+  font-size: 34px;
+  text-decoration: none;
+  line-height: 0;
+}
+
+h3 {
+color: #DDDDDD;
+font-size: 34px;
+font-weight: 100;
+line-height: 0;
+}
+
+h4 {
+  text-align: right;
+}
+
+h4 > a {
+  color: #DC2F2C;
+  text-decoration: none;
+}
+
+span {
+  font-size: 80px;
+  font-family: "Gill Sans";
+  font-weight: lighter;
+  color: #DDDDDD;
+  float: left;
+  padding: 0 15px 0 0;
+  margin: -10px 0;
+}
+
+article {
+  margin-top: 80px;
+  border-bottom: 2px solid #DDDDDD;
+}
+
+img {
+  width: 100%;
+}
+
+footer > p {
+color: #DDDDDD;
+padding: 0;
+margin: 0;
+}
+
+div {
+display: flex;
+flex-direction: row;
+padding: 40px 0 15px 0;
+}
+
+div > a {
+text-decoration: none;
+color: #DC2F2C;;
+font-size: 16px;
+/*margin-right:  5px;*/
+padding: 0 6px;
+border-right: 2px solid #DDDDDD;
+}
